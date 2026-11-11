@@ -44,7 +44,7 @@ LABS = [
     {
         "name": "Lab 7: Fuzz Testing - Shopping Cart / Hypothesis",
         "dir": ROOT / "Lab 7",
-        "cmd": [sys.executable, "-m", "pytest", "test_shopping_cart.py", "-q"],
+        "cmd": [sys.executable, "-m", "pytest", "test_shopping_cart.py", "test_processor.py", "-q"],
     },
 ]
 
